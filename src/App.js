@@ -45,7 +45,7 @@ class App extends React.Component {
               <div className="container">
                 <div className="row">
                   <div className="col-xs-5 title-container">
-                    <h1>Weather Finder</h1>
+                    <h1 >Weather Finder</h1>
 
                   </div>
                   <div className="col-xs-7 form-container">
