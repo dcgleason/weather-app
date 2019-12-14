@@ -1,14 +1,18 @@
 {
   "name": "weather-app",
   "version": "0.1.0",
-  "homepage":"http://dcgleason.github.io/weather-app",
+  "homepage": "http://dcgleason.github.io/weather-app",
   "private": true,
+  "engines": {
+    "npm": "6.10.0",
+    "node": "12.7.0"
+  },
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap": "^3.4.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +39,19 @@
   },
   "devDependencies": {
     "gh-pages": "^2.1.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "routes.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcgleason/weather-app.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Daniel Gleason",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dcgleason/weather-app/issues"
   }
 }
